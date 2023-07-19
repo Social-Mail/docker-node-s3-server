@@ -14,4 +14,4 @@ RUN npm install
 
 EXPOSE 4569
 
-RUN node ./index.js
+ENTRYPOINT ["node","./index.js"]
